@@ -1,9 +1,13 @@
 
 <html> 
  <head> 
-   <title>Flask Static Demo</title> 
+   <title>Welcome to My Blogs</title> 
  </head> 
  <body> 
    <h1>{{message}}</h1> 
+
+   <ul><a href="{{ url_for('routes_to_blogs', id='fav') }}">A blog, the favorite</a></ul>
+
+   
  </body> 
 </html> 

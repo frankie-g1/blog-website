@@ -6,3 +6,4 @@ dependencies:
     - flask
     - Flask-Testing
     - flask-restful
+    - markupsafe
