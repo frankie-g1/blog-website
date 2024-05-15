@@ -1,0 +1,7 @@
+name: blog-website
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - flask
+    - Flask-Testing
