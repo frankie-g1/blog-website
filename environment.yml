@@ -5,3 +5,4 @@ dependencies:
   - pip:
     - flask
     - Flask-Testing
+    - flask-restful
