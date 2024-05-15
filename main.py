@@ -8,7 +8,7 @@ api = Api(app)
 
 
 @app.route("/") 
-def hello(): 
+def home_page(): 
     message = "Welcome to my blogs!"
     return render_template('index.html',  
                            message=message) 
