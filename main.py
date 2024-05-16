@@ -16,7 +16,7 @@ def home_page():
 
 @app.route("/blogs/<string:id>") 
 def routes_to_blogs(id): 
-    return render_template(f'{id}.html') 
+    return render_template(f'{escape(id)}.html') 
 
 
 # Run last
